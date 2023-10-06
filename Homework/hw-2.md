@@ -8,7 +8,14 @@ Task 1
 
 1. Create a module named `HW2.T1`.
 
-2. Using the `Tree` data type defined in this module, define the following function:
+2. Using the `Tree` data type defined in this module,
+
+   ```
+   data Tree a = Leaf | Branch !Int (Tree a) a (Tree a)
+     deriving (Show)
+   ```
+
+   where `Int` stands for the tree size, define the following function:
 
    ```
    tfoldr :: (a -> b -> b) -> b -> Tree a -> b
@@ -25,6 +32,9 @@ Task 1
 
    You are encouraged to define `tfoldr` in an efficient manner, doing only a
    single pass over the tree and without constructing intermediate lists.
+
+   \* If you're wondering what is `!` in the `Branch` constructor, it's called
+   **strictness annotation** and forces the evaluation of the constructor argument.
 
 Task 2
 ------
