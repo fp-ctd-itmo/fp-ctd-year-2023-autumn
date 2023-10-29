@@ -147,7 +147,7 @@ to the laws, take the following expectations into account:
 
 You must implement these functions by hand, using only:
 
-* data types that you defined in `HW3.T1`
+* data types and functions that you defined in `HW3.T1`
 * `(<>)` and `mempty` for `Annotated`
 
 
