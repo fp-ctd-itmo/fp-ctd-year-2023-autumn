@@ -1,7 +1,7 @@
 Homework #4
 ===========
 
-[Classroom]()
+[Classroom](https://classroom.github.com/a/H1X21dOY)
 
 **Note**: You may notice that these tasks mention some data types from homework 3. They are also defined in the template for this homework, namely in `HW4.Types` module, so you don't need to implement it there. However, if you think that some other parts of hw3 may be useful in this homework (e.g. you want to use `mapExcept` to implement `mapExceptState`), feel free to define these functions here as well.
 
