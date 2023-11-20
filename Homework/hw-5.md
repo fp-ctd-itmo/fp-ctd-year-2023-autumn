@@ -1,7 +1,7 @@
 Homework #5
 ===========
 
-[Classroom]()
+[Classroom](https://classroom.github.com/a/Df7_cK57)
 
 In this homework we will gradually develop a small programming language
 called Hi.
