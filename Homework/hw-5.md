@@ -6,7 +6,9 @@ Homework #5
 In this homework we will gradually develop a small programming language
 called Hi.
 
-**Note**: Since it’s an overkill to write the full language specification, we introduce to you FAQ where you will find the answers to your questions about the interpreter’s behavior in corner cases.
+FAQ
+-----------------
+Since it’s an overkill to write the full language specification, we introduce to you [FAQ](https://docs.google.com/document/d/1cM4_MWwjfWzVCIV-JoCOYjXz24Rdg1Zv_uFi0tfCOzw/edit) where you will find the answers to your questions about the interpreter’s behavior in corner cases.
 
 Project Structure
 -----------------
