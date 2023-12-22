@@ -142,6 +142,8 @@ data ListZipper a = LZ [a] a [a]
 newtype Grid a = Grid { unGrid :: ListZipper (ListZipper a) }
 ```
 
+**Tip**: For random simulation, store the `StdGen` object in each cell and use it as a random generator every time you need to generate a random number in a cell. It's ok if identical `StdGen` objects are stored on the diagonals of the grid.
+
 Since there are no automatic tests for this task, there are no strict requirements to the project structure. As a result, you need to implement the `simulate` function which takes the config and generates infinite list of grids.
 
 Apart from that, you need to implement console application which uses the following command-line arguments and prints the simulation process (it should use `simulate` function) to terminal.
