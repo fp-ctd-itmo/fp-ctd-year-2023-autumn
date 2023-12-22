@@ -1,7 +1,7 @@
 Homework #6
 ===========
 
-[Classroom]()
+[Classroom](https://classroom.github.com/a/eJNy0A8B)
 
 Task 1 (Concurrent Hash Table)
 ------
